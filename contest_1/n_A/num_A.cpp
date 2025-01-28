@@ -30,21 +30,21 @@ void sort_dates(std::vector<Date> &dates, std::string_view order) {
     });
 }
 
-// int main() {
-//     std::vector<Date> vec = {
-//         {2006, 4, 20},
-//         {2006, 5, 1},
-//         {2002, 9, 3},
-//         {2004, 1, 31},
-//         {2006, 4, 20}
-//     };
+int main() {
+    std::vector<Date> vec = {
+        {2006, 4, 20},
+        {2006, 5, 1},
+        {2002, 9, 3},
+        {2004, 1, 31},
+        {2006, 4, 20}
+    };
 
-//     sort_dates(vec, "myd");
+    sort_dates(vec, "myd");
 
-//     for (Date &date : vec) {
-//         std::cout << static_cast<int>(date.year) << " " << static_cast<int>(date.month) << " " << static_cast<int>(date.day) << std::endl;
-//     }
+    for (Date &date : vec) {
+        std::cout << static_cast<int>(date.year) << " " << static_cast<int>(date.month) << " " << static_cast<int>(date.day) << std::endl;
+    }
 
-//     return 0;
+    return 0;
 
-// }
+}
