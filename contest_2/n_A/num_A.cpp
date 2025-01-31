@@ -21,3 +21,8 @@ private:
     std::ostream& out_;
     std::chrono::time_point<std::chrono::high_resolution_clock> time_1;
 };
+
+int main() {
+
+    return 0;
+}
